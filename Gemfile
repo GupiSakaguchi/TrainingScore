@@ -27,6 +27,10 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 
 gem 'slim-rails'
+gem 'fullcalendar-rails'
+gem 'momentjs-rails'
+gem 'jquery-rails'
+gem 'jquery-ui-rails'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
