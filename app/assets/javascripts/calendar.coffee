@@ -42,7 +42,3 @@ $(document).ready ->
         month: 'ddd',    # 月
         week: "d'('ddd')'", # 7(月)
         day: "d'('ddd')'" # 7(月)
-
-
-
-
