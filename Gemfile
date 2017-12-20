@@ -31,7 +31,8 @@ gem 'fullcalendar-rails'
 gem 'momentjs-rails'
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
-
+gem 'bootstrap-sass'
+gem 'sass-rails','~> 5.0'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
