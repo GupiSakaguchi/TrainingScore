@@ -33,6 +33,7 @@ gem 'jquery-rails'
 gem 'jquery-ui-rails'
 gem 'bootstrap-sass'
 gem 'sass-rails','~> 5.0'
+gem 'sorcery'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
