@@ -1,10 +1,10 @@
 Rails.application.routes.draw do
-  get 'user_sessions/new'
-
-  get 'user_sessions/create'
-
-  get 'user_sessions/destrory'
-
+  resources :user_sessions
   resources :users
-  root 'top#index'
+  #resources :top, only: :index
+  #root 'top#index'
+  root  'users#index'
+  get '/top', to: 'top#index'
+  get 'login' => 'user_sessions#new', :as => :login
+  post 'logout' => 'user_sessions#destroy', :as => :logout
 end

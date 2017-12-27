@@ -1,0 +1,10 @@
+= form_tag top_path, method: :get do
+
+  div.field
+    = label_tag :email
+    = text_field_tag :email
+  div.field
+    = label_tag :password
+    = password_field_tag :password
+  div.field
+    = submit_tag 'Login'
